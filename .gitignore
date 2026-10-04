@@ -1,0 +1,16 @@
+# Build output (rebuild with build.bat)
+src/bin/
+src/obj/
+DiskHog/
+
+# Files the app writes at runtime - they contain local file paths
+reports/
+*.dhog
+*.dhog.tmp
+DiskHog.settings.json
+DiskHog_crash.log
+
+# IDE
+.vs/
+.vscode/
+*.user
